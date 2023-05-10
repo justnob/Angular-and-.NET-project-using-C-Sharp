@@ -1,0 +1,46 @@
+[
+	{
+		"Name": "Jhumka 2010",
+		"Description": "qwerf ervdfnvj snvcjsvnhbfvh sbfvhdfvb hdfvb",
+		"Price": 200,
+		"PictureUrl": "images/products/jhumka1.png",
+		"ProductTypeId": 1,
+		"ProductBrandId": 1
+	},
+	{
+		"Name": "Jhumka 2011",
+		"Description": "qwdjqjdio'jc qjdnwcnj jndwjdnckn jncijw",
+		"Price": 500,
+		"PictureUrl": "images/products/jhumka2.png",
+		"ProductTypeId": 1,
+		"ProductBrandId": 1
+	},
+	{
+		"Name": "Bangle 2010",
+		"Description": "qwerf ervdfn dfs dsf vj snvcjsvnhbfvh sbfvhdfvb hdfvb",
+		"Price": 50,
+		"PictureUrl": "images/products/bangle1.png",
+		"ProductTypeId": 1,
+		"ProductBrandId": 2
+	},
+	{
+		"Name": "Bangle 2011",
+		"Description": "qwerf ervdfn fdf dsf sdf sfvj snvcjsvnhbfvh sbfvhdfvb hdfvb",
+		"Price": 200,
+		"PictureUrl": "images/products/bangle1.png",
+		"ProductTypeId": 1,
+		"ProductBrandId": 2
+	},
+	{
+		"Name": "Saari 2010",
+		"Description": "qwerf erv sdfsd sdfsd sdf sdf dfnvj snvcjsvnhbfvh sbfvhdfvb hdfvb",
+		"Price": 800,
+		"PictureUrl": "images/products/sari1.png",
+		"ProductTypeId": 2,
+		"ProductBrandId": 3
+	}
+]
+	
+	
+	
+	
