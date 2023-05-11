@@ -1,4 +1,5 @@
 using Infrastructure.Data;
+using API.Errors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
@@ -19,12 +20,12 @@ namespace API.Controllers
 
             if(thing == null)
             {
-                return NotFound();
+                return NotFound(new ApiResponse(404));
             }
             return Ok();
         }
 
-        [HttpGet("servroerror")]
+        [HttpGet("servererror")]
         public ActionResult GetServerError()
         {
             var thing = this.context.Products.Find(44);
@@ -38,7 +39,7 @@ namespace API.Controllers
         public ActionResult GetBadRequest()
         {
 
-            return BadRequest();
+            return BadRequest(new ApiResponse(400));
         }
 
         [HttpGet("badrequest/{id}")]
